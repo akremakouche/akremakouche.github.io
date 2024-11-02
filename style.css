@@ -15,6 +15,80 @@ body {
 
 /* Spinner styling */
 
+.connect-us {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    height: 210px;
+}
+.difi{
+    text-align: left;
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    font-size: 14px  ;
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.social{
+    
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.connect-us h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+    color: #000000;
+}
+
+.connect-us p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #000000;
+}
+
+.instagram-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.instagram-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.8rem 1.5rem;
+    background: #fff;
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.instagram-link i {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.instagram-link:hover {
+    background: #000000;
+    color: #fff;
+}
 
 /* Spinner animation */
 @keyframes spin {
@@ -121,3 +195,4 @@ button:nth-child(2) {
     height: 430px;
     margin-top: 40px;
 }
+
