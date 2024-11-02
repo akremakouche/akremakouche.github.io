@@ -216,14 +216,14 @@ button:nth-child(2) {
 
     label {
         display: block; /* Stack labels vertically */
-        margin-bottom: 10px; /* Add space between labels */
+        margin-bottom: 5px; /* Add space between labels */
     }
 
     input[type="text"],
     input[type="number"] {
         width: 100%; /* Full width for inputs */
         padding: 10px; /* Increase padding in input fields */
-        margin-bottom: 10px; /* Space between inputs */
+        margin-bottom: 5px; /* Space between inputs */
         font-size: 16px; /* Larger font for easier reading */
     }
 
