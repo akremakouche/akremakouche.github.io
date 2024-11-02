@@ -1,0 +1,123 @@
+/* Apply a gradient background and adjust text colors */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #020202, #30343a, #ffffff);
+    color: #ffffff;
+    text-align: center;
+    
+    min-height: 100vh;
+    margin: 0;
+    
+    
+}
+/* Loading screen styling */
+
+
+/* Spinner styling */
+
+
+/* Spinner animation */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+.container{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* Adjust the style of the application container */
+#app {
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    margin-right: 5px;
+    margin-top: 40px;
+    
+}
+
+
+/* Update title style */
+h1 {
+    
+    font-weight: bold;
+    
+    color: #ECEFF4;
+    
+}
+
+/* Style labels and input fields */
+label {
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    color: #d1d1d1;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1em;
+    outline: none;
+}
+
+/* Style buttons with hover effect */
+button {
+    margin-top: 15px;
+    padding: 12px;
+    width: 48%;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+button:nth-child(1) {
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+
+button:nth-child(2) {
+    background-color: #D32F2F;
+    color: #ffffff;
+}
+
+/* Style the result display */
+#result {
+    margin-top: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #FFD700;
+}
+
+/* Plot container styling */
+#plot {
+    padding: 30px;
+    border-radius: 8px;
+    background-color: transparent; /* Full transparency */
+    
+    
+    
+    width: 500px;
+    height: 430px;
+    margin-top: 40px;
+}

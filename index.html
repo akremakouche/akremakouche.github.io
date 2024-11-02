@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="div">
+    <!-- Loading Screen Content -->
+    <div class="scene">
+        <div class="shadow"></div>
+        <div class="jumper">
+          <div class="spinner">
+            <div class="scaler">
+              <div class="loader">
+                <div class="cuboid">
+                  <div class="cuboid__side"></div>
+                  <div class="cuboid__side"></div>
+                  <div class="cuboid__side"></div>
+                  <div class="cuboid__side"></div>
+                  <div class="cuboid__side"></div>
+                  <div class="cuboid__side"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+    <div id="loadingScreen">
+        <div id="animatedText"></div>
+    </div>
+
+
+    <script>
+        const text = "SOLVE YOUR OWN FUNCTION...";
+const animatedTextDiv = document.getElementById("animatedText");
+
+// Function to display text one letter at a time
+function displayText() {
+    let index = 0;
+    const interval = setInterval(() => {
+        if (index < text.length) {
+            animatedTextDiv.innerHTML += text[index];
+            animatedTextDiv.style.opacity = 1; // Make text visible
+            index++;
+        } else {
+            clearInterval(interval);
+            setTimeout(() => {
+                window.location.href = "main.html"; // Redirect to main page
+            }, 500); // Wait for 0.5 seconds before redirecting
+        }
+    }, 200); // Adjusted interval for speed (100ms per letter)
+}
+
+displayText();
+</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hybrid Numerical Method</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.5.0/math.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="h1"><h1>Fixed Point Iteration and Newton-Raphson Hybrid Method</h1></div>
+    <div class="container">
+    <div id="app">
+        <label>Function f(x): <input type="text" id="fInput"></label><br>
+        <label>Function g(x): <input type="text" id="gInput"></label><br>
+        <label>Initial Guess: <input type="number" id="guessInput"></label><br>
+        <label>Tolerance: <input type="number" id="tolInput" step="0.0001"></label><br>
+        <label>Max Iterations: <input type="number" id="maxIterInput"></label><br>
+        
+        <button class="" onclick="calculateRoot()">Calculate Root</button>
+        <button onclick="resetFields()">Reset</button>
+
+        <p id="result"></p>
+        
+    </div>
+    <div id="plot"></div>
+</div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
