@@ -21,9 +21,9 @@ body {
 	--delay: 0.65s;
   --rotation-y: -24;
   --rotation-x: 28;
-  --color-one: #480a0a;
-  --color-two: #070708;
-  --color-three: #3f2e2e;
+  --color-one: #ffffff;
+  --color-two: #a9a4a4;
+  --color-three: #3f3e3e;
 }
 
 .scene {
