@@ -195,4 +195,75 @@ button:nth-child(2) {
     height: 430px;
     margin-top: 40px;
 }
+/* Responsive Styles for Phones */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px; /* Adjust the body font size for smaller screens */
+    }
 
+    .container {
+        width: 95%; /* Make the container slightly narrower */
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    #app {
+        padding: 15px; /* Adjust padding in the app container */
+    }
+
+    h1 {
+        font-size: 24px; /* Decrease the header size */
+    }
+
+    label {
+        display: block; /* Stack labels vertically */
+        margin-bottom: 10px; /* Add space between labels */
+    }
+
+    input[type="text"],
+    input[type="number"] {
+        width: 100%; /* Full width for inputs */
+        padding: 10px; /* Increase padding in input fields */
+        margin-bottom: 10px; /* Space between inputs */
+        font-size: 16px; /* Larger font for easier reading */
+    }
+
+    button {
+        width: 100%; /* Full width for buttons */
+        padding: 10px; /* Increase padding in buttons */
+        font-size: 16px; /* Increase button font size */
+        margin-bottom: 10px; /* Space between buttons */
+    }
+
+    #plot {
+        width: 100%; /* Full width for the plot */
+        height: auto; /* Automatic height to maintain aspect ratio */
+        margin-top: 200px;
+    }
+
+    .connect-us {
+        padding: 15px; /* Adjust padding for the connect section */
+    }
+
+    .connect-us h2 {
+        font-size: 20px; /* Adjust header size */
+    }
+
+    .connect-us a {
+        display: block; /* Stack links vertically */
+        margin: 5px 0; /* Space between links */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; /* Smaller font size for very small screens */
+    }
+
+    h1 {
+        font-size: 20px; /* Further decrease the header size */
+    }
+
+    .connect-us a {
+        font-size: 14px; /* Adjust font size for links */
+    }
+}
